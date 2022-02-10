@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+    foam:
+        build: .
+        runtime: nvidia
+        environment:
+            DISPLAY: $DISPLAY
+        volumes:
+        - ./data:/data
+        - ./generator:/opt/generator
+        - /tmp/.X11-unix:/tmp/.X11-unix
