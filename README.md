@@ -14,6 +14,8 @@ likely OSX too (using the "Generic"/non-GPU setup).
 
 # Quick Start
 
+Put any cases into the `data` directory and they will be in `/data/` in the running container.
+
 ## NVIDIA/X11
 
 If you have an NVIDIA GPU and X11 display manager:
